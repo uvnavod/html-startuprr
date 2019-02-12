@@ -1,0 +1,491 @@
+@font-face {
+  font-family: 'Raleway-ExtraBold';
+  src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'ElegantIcons';
+  src: url(../fonts/ElegantIcons.eot);
+  src: url(../fonts/ElegantIcons.eot?#iefix) format("embedded-opentype"), url(../fonts/ElegantIcons.woff) format("woff"), url(../fonts/ElegantIcons.ttf) format("truetype"), url(../fonts/ElegantIcons.svg#ElegantIcons) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 22, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+[data-icon]:before {
+  font-family: 'ElegantIcons';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 44, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+body, div, ul, li, img, h1, h2, h3, h4, h5, h6, p, span {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 49, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+body {
+  font-family: 'Raleway-Medium';
+  font-size: 12px;
+}
+
+/* line 54, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+/* line 59, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 63, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+button:focus {
+  outline: none;
+}
+
+/* line 67, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* line 70, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.container--relative {
+  position: relative;
+}
+
+/* line 73, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.container--flex {
+  display: flex;
+}
+
+/* line 76, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.container--full {
+  height: 100%;
+}
+
+/* line 81, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.home {
+  height: 750px;
+  width: 100%;
+  background: url(../img/img_homg_bg.png);
+  object-fit: cover;
+  background-position: center;
+}
+
+/* line 87, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.home-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+/* line 92, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.home-content h1 {
+  text-transform: uppercase;
+  font-size: 64px;
+  font-family: Raleway-ExtraBold;
+  color: #383838;
+  margin-bottom: 5px;
+}
+
+/* line 99, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.home-content h5 {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #383838;
+  font-weight: 100;
+  margin-bottom: -8px;
+}
+
+/* line 108, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.home-content-slogan {
+  color: #e4e4e4;
+  width: 100%;
+  background: #383838;
+  padding: 8px 0;
+  margin-bottom: 45px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 119, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.home-content-slogan__name {
+  font-size: 17.22px;
+}
+
+/* line 121, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.home-content-slogan__name .blue-text {
+  text-transform: uppercase;
+  color: #00a99d;
+}
+
+/* line 126, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.home-content-slogan__text {
+  margin-left: 5px;
+  font-size: 18.23px;
+  text-transform: uppercase;
+}
+
+/* line 132, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.home-content__arrow-down {
+  margin-top: 40px;
+  font-size: 60px;
+  color: #00a99d;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 139, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.home-content__arrow-down div {
+  cursor: pointer;
+}
+
+/* line 145, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.header {
+  height: 100px;
+  border-bottom: 2px solid #dedede;
+}
+
+/* line 148, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.header__logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+/* line 154, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.header-menu {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* line 162, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.header-menu-nav {
+  display: flex;
+}
+
+/* line 164, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.header-menu-nav__item {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: Raleway-ExtraBold;
+  color: #383838;
+  padding: 12px 20px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 8px;
+}
+
+/* line 173, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.header-menu-nav__item--active {
+  background: #00a99d;
+  color: #e4e4e4;
+}
+
+/* line 179, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.header-menu__search {
+  font-size: 16px;
+  color: #00a99d;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 189, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.offer {
+  padding: 80px 0 105px;
+}
+
+/* line 191, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.offer-list {
+  margin-top: 45px;
+}
+
+/* line 193, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.offer-list-item {
+  flex: 1;
+  text-align: center;
+}
+
+/* line 196, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.offer-list-item__image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 28px;
+  background: #383838;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: #e4e4e4;
+}
+
+/* line 209, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.offer-list-item h4 {
+  font-size: 14px;
+  font-family: Raleway-ExtraBold;
+  color: #606060;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+/* line 216, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.offer-list-item p {
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+/* line 220, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.offer-list-item button {
+  font-size: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: Raleway-ExtraBold;
+  color: #8a8a8a;
+  padding: 8px 10px;
+  background: transparent;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+}
+
+/* line 232, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.offer-list-item--active .offer-list-item__image {
+  background: #00a99d;
+}
+
+/* line 235, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.offer-list-item--active button {
+  background: #00a99d;
+  color: #e3e3e3;
+  border-color: #00a99d;
+}
+
+/* line 245, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.features {
+  height: 620px;
+  width: 100%;
+  background: #383838;
+}
+
+/* line 249, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.features-list {
+  display: block;
+  flex: 1;
+  margin-top: 90px;
+}
+
+/* line 256, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.features-list-item {
+  position: relative;
+  margin-bottom: 60px;
+  min-height: 75px;
+}
+
+/* line 260, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.features-list-item__image {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  color: #00a99d;
+  font-size: 40px;
+}
+
+/* line 267, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.features-list-item__content {
+  position: absolute;
+  top: 0;
+  left: 75px;
+  max-width: 270px;
+}
+
+/* line 272, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.features-list-item__content h4 {
+  font-size: 14px;
+  color: #e4e4e4;
+  font-family: Raleway-ExtraBold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* line 279, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.features-list-item__content p {
+  color: #7a7a7a;
+  font-size: 14px;
+}
+
+/* line 284, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.features-list-item:last-child {
+  margin-bottom: 0;
+}
+
+/* line 289, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.features__image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 296, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.section-icon {
+  width: 100%;
+  position: relative;
+}
+
+/* line 299, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.section-icon-wraper {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  border-radius: 3px;
+  color: #e4e4e4;
+  background: #00a99d;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 313, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.section-icon-wraper div {
+  transform: rotate(-45deg);
+}
+
+/* line 318, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.section-icon--dark-bg .section-icon-wraper {
+  background: #383838;
+}
+
+/* line 323, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.title {
+  display: flex;
+  text-align: center;
+  position: relative;
+}
+
+/* line 327, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.title h3 {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-family: Raleway-ExtraBold;
+  color: #383838;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 334, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.title h3 .blue-text {
+  color: #00a99d;
+}
+
+/* line 337, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.title h3 .white-text {
+  color: #e4e4e4;
+}
+
+/* line 340, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.title h3::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 15px;
+  margin-right: 20px;
+  background: url(../img/ic_arrow_left.png);
+}
+
+/* line 348, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.title h3::after {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 15px;
+  margin-left: 20px;
+  background: url(../img/ic_arrow_right.png);
+}
+
+/* line 358, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.title p {
+  font-size: 16px;
+  color: #8a8a8a;
+  margin-top: 12px;
+}
+
+/* line 363, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.title::before {
+  content: "";
+  display: inline-block;
+  flex: 1;
+  width: 30%;
+  height: 4px;
+  margin: auto 0;
+  border: 1px solid #dedede;
+  border-width: 1px 0;
+  margin-right: 10px;
+}
+
+/* line 374, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.title::after {
+  content: "";
+  display: inline-block;
+  flex: 1;
+  width: 30%;
+  height: 4px;
+  margin: auto 0;
+  border: 1px solid #dedede;
+  border-width: 1px 0;
+  margin-left: 10px;
+}
+
+/* line 385, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.title--no-line {
+  display: block;
+}
+
+/* line 387, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.title--no-line h3 {
+  margin-top: 70px;
+  flex: 1;
+}
+
+/* line 391, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.title--no-line::before, .title--no-line::after {
+  display: none;
+}
+
+/* line 396, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.test {
+  border: 1px dashed red;
+}
+
+/*# sourceMappingURL=../css/style.map */
