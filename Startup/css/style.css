@@ -16,7 +16,7 @@
   font-style: normal;
 }
 
-/* line 22, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 22, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 [data-icon]:before {
   font-family: 'ElegantIcons';
   content: attr(data-icon);
@@ -29,56 +29,63 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 44, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 44, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 body, div, ul, li, img, h1, h2, h3, h4, h5, h6, p, span {
   margin: 0;
   padding: 0;
 }
 
-/* line 49, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 49, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 body {
   font-family: 'Raleway-Medium';
   font-size: 12px;
 }
 
-/* line 54, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 54, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Raleway-ExtraBold;
+  text-transform: uppercase;
+}
+
+/* line 59, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 ul {
   list-style-type: none;
   display: flex;
 }
 
-/* line 59, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 64, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 63, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 68, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 button:focus {
   outline: none;
 }
 
-/* line 67, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 72, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .container {
   width: 1170px;
   margin: 0 auto;
 }
 
-/* line 70, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 75, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .container--relative {
   position: relative;
 }
 
-/* line 73, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 78, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .container--flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
-/* line 76, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 82, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .container--full {
   height: 100%;
 }
 
-/* line 81, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 87, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .home {
   height: 750px;
   width: 100%;
@@ -87,7 +94,7 @@ button:focus {
   background-position: center;
 }
 
-/* line 87, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 93, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .home-content {
   position: absolute;
   top: 50%;
@@ -95,7 +102,7 @@ button:focus {
   transform: translateY(-50%);
 }
 
-/* line 92, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 98, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .home-content h1 {
   text-transform: uppercase;
   font-size: 64px;
@@ -104,7 +111,7 @@ button:focus {
   margin-bottom: 5px;
 }
 
-/* line 99, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 105, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .home-content h5 {
   width: 100%;
   text-align: center;
@@ -115,7 +122,7 @@ button:focus {
   margin-bottom: -8px;
 }
 
-/* line 108, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 114, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .home-content-slogan {
   color: #e4e4e4;
   width: 100%;
@@ -129,25 +136,25 @@ button:focus {
   justify-content: center;
 }
 
-/* line 119, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 125, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .home-content-slogan__name {
   font-size: 17.22px;
 }
 
-/* line 121, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 127, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .home-content-slogan__name .blue-text {
   text-transform: uppercase;
   color: #00a99d;
 }
 
-/* line 126, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 132, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .home-content-slogan__text {
   margin-left: 5px;
   font-size: 18.23px;
   text-transform: uppercase;
 }
 
-/* line 132, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 138, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .home-content__arrow-down {
   margin-top: 40px;
   font-size: 60px;
@@ -157,18 +164,18 @@ button:focus {
   justify-content: center;
 }
 
-/* line 139, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 145, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .home-content__arrow-down div {
   cursor: pointer;
 }
 
-/* line 145, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 151, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .header {
   height: 100px;
   border-bottom: 2px solid #dedede;
 }
 
-/* line 148, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 154, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .header__logo {
   position: absolute;
   top: 50%;
@@ -176,7 +183,7 @@ button:focus {
   transform: translateY(-50%);
 }
 
-/* line 154, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 160, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .header-menu {
   position: absolute;
   top: 50%;
@@ -187,12 +194,12 @@ button:focus {
   align-items: center;
 }
 
-/* line 162, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 168, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .header-menu-nav {
   display: flex;
 }
 
-/* line 164, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 170, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .header-menu-nav__item {
   font-size: 13px;
   text-transform: uppercase;
@@ -204,13 +211,13 @@ button:focus {
   margin-right: 8px;
 }
 
-/* line 173, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 179, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .header-menu-nav__item--active {
   background: #00a99d;
   color: #e4e4e4;
 }
 
-/* line 179, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 185, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .header-menu__search {
   font-size: 16px;
   color: #00a99d;
@@ -219,23 +226,23 @@ button:focus {
   align-items: center;
 }
 
-/* line 189, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 195, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .offer {
   padding: 80px 0 105px;
 }
 
-/* line 191, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 197, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .offer-list {
   margin-top: 45px;
 }
 
-/* line 193, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 199, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item {
   flex: 1;
   text-align: center;
 }
 
-/* line 196, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 202, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item__image {
   width: 100px;
   height: 100px;
@@ -249,7 +256,7 @@ button:focus {
   color: #e4e4e4;
 }
 
-/* line 209, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 215, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item h4 {
   font-size: 14px;
   font-family: Raleway-ExtraBold;
@@ -258,13 +265,13 @@ button:focus {
   margin-bottom: 14px;
 }
 
-/* line 216, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 222, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item p {
   font-size: 14px;
   color: #7a7a7a;
 }
 
-/* line 220, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 226, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item button {
   font-size: 10px;
   margin-top: 20px;
@@ -277,40 +284,40 @@ button:focus {
   border-radius: 3px;
 }
 
-/* line 232, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 238, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item--active .offer-list-item__image {
   background: #00a99d;
 }
 
-/* line 235, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 241, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item--active button {
   background: #00a99d;
   color: #e3e3e3;
   border-color: #00a99d;
 }
 
-/* line 245, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 251, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .features {
   height: 620px;
   width: 100%;
   background: #383838;
 }
 
-/* line 249, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 255, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .features-list {
   display: block;
   flex: 1;
   margin-top: 90px;
 }
 
-/* line 256, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 262, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .features-list-item {
   position: relative;
   margin-bottom: 60px;
   min-height: 75px;
 }
 
-/* line 260, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 266, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .features-list-item__image {
   position: absolute;
   top: 5px;
@@ -319,7 +326,7 @@ button:focus {
   font-size: 40px;
 }
 
-/* line 267, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 273, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .features-list-item__content {
   position: absolute;
   top: 0;
@@ -327,7 +334,7 @@ button:focus {
   max-width: 270px;
 }
 
-/* line 272, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 278, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .features-list-item__content h4 {
   font-size: 14px;
   color: #e4e4e4;
@@ -336,31 +343,140 @@ button:focus {
   margin-bottom: 20px;
 }
 
-/* line 279, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 285, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .features-list-item__content p {
   color: #7a7a7a;
   font-size: 14px;
 }
 
-/* line 284, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 290, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .features-list-item:last-child {
   margin-bottom: 0;
 }
 
-/* line 289, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 295, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .features__image {
   position: absolute;
   right: 0;
   bottom: 0;
 }
 
-/* line 296, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 302, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.more-features {
+  width: 100%;
+  padding: 80px 0 40px;
+}
+
+/* line 306, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.more-features-item {
+  width: 33%;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+/* line 310, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.more-features-item-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 70px;
+  background: #00a99d;
+  border-radius: 4px 4px 0 0;
+  clip-path: polygon(0% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}
+
+/* line 319, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.more-features-item-image__cover {
+  width: 40px;
+  height: 50px;
+  background: #383838;
+  border-radius: 4px 4px 0 0;
+  clip-path: polygon(0% 0%, 100% 0, 100% 72%, 50% 100%, 0 72%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #e4e4e4;
+}
+
+/* line 332, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.more-features-item-content {
+  margin-left: 60px;
+}
+
+/* line 334, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.more-features-item-content h4 {
+  font-size: 14px;
+  font-family: Raleway-ExtraBold;
+  color: #606060;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+/* line 341, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.more-features-item-content span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* line 345, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.more-features-item-content p {
+  color: #7a7a7a;
+  font-size: 14px;
+  margin-top: 17px;
+}
+
+/* line 354, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.skills {
+  width: 100%;
+  min-height: 480px;
+  background: #383838;
+}
+
+/* line 358, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.skills-list {
+  width: 100%;
+}
+
+/* line 360, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.skills-list-item {
+  width: 14.5%;
+  margin-right: auto;
+}
+
+/* line 363, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.skills-list-item__circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 2px solid #00a99d;
+  color: #e4e4e4;
+  font-size: 16px;
+  font-family: Raleway-ExtraBold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 375, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.skills-list-item__circle span {
+  font-size: 30px;
+}
+
+/* line 379, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.skills-list-item:last-child {
+  margin-right: 0;
+}
+
+/* line 386, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .section-icon {
   width: 100%;
   position: relative;
 }
 
-/* line 299, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 389, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .section-icon-wraper {
   position: absolute;
   width: 38px;
@@ -377,24 +493,24 @@ button:focus {
   align-items: center;
 }
 
-/* line 313, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 403, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .section-icon-wraper div {
   transform: rotate(-45deg);
 }
 
-/* line 318, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 408, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .section-icon--dark-bg .section-icon-wraper {
   background: #383838;
 }
 
-/* line 323, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 413, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title {
   display: flex;
   text-align: center;
   position: relative;
 }
 
-/* line 327, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 417, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title h3 {
   text-transform: uppercase;
   font-size: 26px;
@@ -404,17 +520,17 @@ button:focus {
   text-align: center;
 }
 
-/* line 334, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 424, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title h3 .blue-text {
   color: #00a99d;
 }
 
-/* line 337, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 427, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title h3 .white-text {
   color: #e4e4e4;
 }
 
-/* line 340, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 430, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title h3::before {
   content: "";
   display: inline-block;
@@ -424,7 +540,7 @@ button:focus {
   background: url(../img/ic_arrow_left.png);
 }
 
-/* line 348, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 438, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title h3::after {
   content: "";
   display: inline-block;
@@ -434,14 +550,14 @@ button:focus {
   background: url(../img/ic_arrow_right.png);
 }
 
-/* line 358, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 448, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title p {
   font-size: 16px;
   color: #8a8a8a;
   margin-top: 12px;
 }
 
-/* line 363, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 453, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title::before {
   content: "";
   display: inline-block;
@@ -454,7 +570,7 @@ button:focus {
   margin-right: 10px;
 }
 
-/* line 374, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 464, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title::after {
   content: "";
   display: inline-block;
@@ -467,23 +583,23 @@ button:focus {
   margin-left: 10px;
 }
 
-/* line 385, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 475, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title--no-line {
   display: block;
 }
 
-/* line 387, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 477, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title--no-line h3 {
   margin-top: 70px;
   flex: 1;
 }
 
-/* line 391, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 481, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title--no-line::before, .title--no-line::after {
   display: none;
 }
 
-/* line 396, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+/* line 486, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .test {
   border: 1px dashed red;
 }
