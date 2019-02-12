@@ -427,28 +427,41 @@ button:focus {
   margin-top: 17px;
 }
 
-/* line 354, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.skills {
-  width: 100%;
-  min-height: 480px;
+/* line 352, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.more-features-item--active .more-features-item-image {
   background: #383838;
 }
 
-/* line 358, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.skills-list {
-  width: 100%;
+/* line 354, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.more-features-item--active .more-features-item-image__cover {
+  background: #00a99d;
 }
 
-/* line 360, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 362, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.skills {
+  width: 100%;
+  padding-bottom: 70px;
+  background: #383838;
+}
+
+/* line 366, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.skills-list {
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* line 369, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .skills-list-item {
   width: 14.5%;
   margin-right: auto;
+  text-align: center;
 }
 
-/* line 363, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 373, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .skills-list-item__circle {
   width: 120px;
   height: 120px;
+  margin: 0 auto;
   border-radius: 50%;
   box-sizing: border-box;
   border: 2px solid #00a99d;
@@ -460,23 +473,35 @@ button:focus {
   align-items: center;
 }
 
-/* line 375, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 386, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .skills-list-item__circle span {
   font-size: 30px;
 }
 
-/* line 379, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 390, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.skills-list-item h4 {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+/* line 395, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .skills-list-item:last-child {
   margin-right: 0;
 }
 
-/* line 386, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 402, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.work {
+  padding: 75px 0;
+}
+
+/* line 406, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .section-icon {
   width: 100%;
   position: relative;
 }
 
-/* line 389, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 409, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .section-icon-wraper {
   position: absolute;
   width: 38px;
@@ -493,25 +518,41 @@ button:focus {
   align-items: center;
 }
 
-/* line 403, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 423, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .section-icon-wraper div {
   transform: rotate(-45deg);
 }
 
-/* line 408, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 428, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .section-icon--dark-bg .section-icon-wraper {
   background: #383838;
 }
 
-/* line 413, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 434, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .title {
+  flex: 1;
+  text-align: center;
+}
+
+/* line 437, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.title-text {
   display: flex;
   text-align: center;
   position: relative;
 }
 
-/* line 417, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.title h3 {
+/* line 441, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.title-text__blue {
+  color: #00a99d;
+}
+
+/* line 444, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.title-text__white {
+  color: #e4e4e4;
+}
+
+/* line 447, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.title-text h3 {
   text-transform: uppercase;
   font-size: 26px;
   font-family: Raleway-ExtraBold;
@@ -520,18 +561,8 @@ button:focus {
   text-align: center;
 }
 
-/* line 424, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.title h3 .blue-text {
-  color: #00a99d;
-}
-
-/* line 427, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.title h3 .white-text {
-  color: #e4e4e4;
-}
-
-/* line 430, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.title h3::before {
+/* line 454, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.title-text h3::before {
   content: "";
   display: inline-block;
   width: 28px;
@@ -540,8 +571,8 @@ button:focus {
   background: url(../img/ic_arrow_left.png);
 }
 
-/* line 438, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.title h3::after {
+/* line 462, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.title-text h3::after {
   content: "";
   display: inline-block;
   width: 28px;
@@ -550,15 +581,8 @@ button:focus {
   background: url(../img/ic_arrow_right.png);
 }
 
-/* line 448, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.title p {
-  font-size: 16px;
-  color: #8a8a8a;
-  margin-top: 12px;
-}
-
-/* line 453, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.title::before {
+/* line 471, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.title-text::before {
   content: "";
   display: inline-block;
   flex: 1;
@@ -570,8 +594,8 @@ button:focus {
   margin-right: 10px;
 }
 
-/* line 464, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.title::after {
+/* line 482, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.title-text::after {
   content: "";
   display: inline-block;
   flex: 1;
@@ -583,23 +607,25 @@ button:focus {
   margin-left: 10px;
 }
 
-/* line 475, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.title--no-line {
-  display: block;
+/* line 494, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.title p {
+  font-size: 16px;
+  color: #8a8a8a;
+  margin-top: 12px;
 }
 
-/* line 477, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.title--no-line h3 {
+/* line 501, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.title--no-line .title-text::before, .title--no-line .title-text::after {
+  display: none;
+}
+
+/* line 504, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+.title--no-line .title-text h3 {
   margin-top: 70px;
   flex: 1;
 }
 
-/* line 481, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.title--no-line::before, .title--no-line::after {
-  display: none;
-}
-
-/* line 486, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 512, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
 .test {
   border: 1px dashed red;
 }
