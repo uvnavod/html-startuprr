@@ -16,7 +16,7 @@
   font-style: normal;
 }
 
-/* line 22, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 22, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 [data-icon]:before {
   font-family: 'ElegantIcons';
   content: attr(data-icon);
@@ -29,63 +29,63 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 44, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 44, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 body, div, ul, li, img, h1, h2, h3, h4, h5, h6, p, span {
   margin: 0;
   padding: 0;
 }
 
-/* line 49, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 49, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 body {
   font-family: 'Raleway-Medium';
   font-size: 12px;
 }
 
-/* line 54, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 54, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: Raleway-ExtraBold;
   text-transform: uppercase;
 }
 
-/* line 59, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 59, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 ul {
   list-style-type: none;
   display: flex;
 }
 
-/* line 64, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 64, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 68, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 68, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 button:focus {
   outline: none;
 }
 
-/* line 72, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 72, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .container {
   width: 1170px;
   margin: 0 auto;
 }
 
-/* line 75, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 75, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .container--relative {
   position: relative;
 }
 
-/* line 78, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 78, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .container--flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 82, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 82, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .container--full {
   height: 100%;
 }
 
-/* line 87, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 87, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .home {
   height: 750px;
   width: 100%;
@@ -94,7 +94,7 @@ button:focus {
   background-position: center;
 }
 
-/* line 93, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 93, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .home-content {
   position: absolute;
   top: 50%;
@@ -102,7 +102,7 @@ button:focus {
   transform: translateY(-50%);
 }
 
-/* line 98, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 98, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .home-content h1 {
   text-transform: uppercase;
   font-size: 64px;
@@ -111,7 +111,7 @@ button:focus {
   margin-bottom: 5px;
 }
 
-/* line 105, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 105, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .home-content h5 {
   width: 100%;
   text-align: center;
@@ -122,7 +122,7 @@ button:focus {
   margin-bottom: -8px;
 }
 
-/* line 114, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 114, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .home-content-slogan {
   color: #e4e4e4;
   width: 100%;
@@ -136,27 +136,27 @@ button:focus {
   justify-content: center;
 }
 
-/* line 125, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 125, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .home-content-slogan__name {
   font-size: 17.22px;
 }
 
-/* line 127, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 127, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .home-content-slogan__name .blue-text {
   text-transform: uppercase;
   color: #00a99d;
 }
 
-/* line 132, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 132, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .home-content-slogan__text {
   margin-left: 5px;
   font-size: 18.23px;
   text-transform: uppercase;
 }
 
-/* line 138, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 138, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .home-content__arrow-down {
-  margin-top: 40px;
+  margin-top: -10px;
   font-size: 60px;
   color: #00a99d;
   width: 100%;
@@ -164,18 +164,18 @@ button:focus {
   justify-content: center;
 }
 
-/* line 145, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 145, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .home-content__arrow-down div {
   cursor: pointer;
 }
 
-/* line 151, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 151, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .header {
   height: 100px;
   border-bottom: 2px solid #dedede;
 }
 
-/* line 154, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 154, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .header__logo {
   position: absolute;
   top: 50%;
@@ -183,7 +183,7 @@ button:focus {
   transform: translateY(-50%);
 }
 
-/* line 160, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 160, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .header-menu {
   position: absolute;
   top: 50%;
@@ -194,12 +194,12 @@ button:focus {
   align-items: center;
 }
 
-/* line 168, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 168, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .header-menu-nav {
   display: flex;
 }
 
-/* line 170, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 170, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .header-menu-nav__item {
   font-size: 13px;
   text-transform: uppercase;
@@ -211,13 +211,13 @@ button:focus {
   margin-right: 8px;
 }
 
-/* line 179, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 179, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .header-menu-nav__item--active {
   background: #00a99d;
   color: #e4e4e4;
 }
 
-/* line 185, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 185, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .header-menu__search {
   font-size: 16px;
   color: #00a99d;
@@ -226,23 +226,18 @@ button:focus {
   align-items: center;
 }
 
-/* line 195, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 195, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .offer {
   padding: 80px 0 105px;
 }
 
-/* line 197, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.offer-list {
-  margin-top: 45px;
-}
-
-/* line 199, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 198, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item {
   flex: 1;
   text-align: center;
 }
 
-/* line 202, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 201, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item__image {
   width: 100px;
   height: 100px;
@@ -256,7 +251,7 @@ button:focus {
   color: #e4e4e4;
 }
 
-/* line 215, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 214, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item h4 {
   font-size: 14px;
   font-family: Raleway-ExtraBold;
@@ -265,13 +260,13 @@ button:focus {
   margin-bottom: 14px;
 }
 
-/* line 222, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 221, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item p {
   font-size: 14px;
   color: #7a7a7a;
 }
 
-/* line 226, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 225, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item button {
   font-size: 10px;
   margin-top: 20px;
@@ -284,40 +279,40 @@ button:focus {
   border-radius: 3px;
 }
 
-/* line 238, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 237, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item--active .offer-list-item__image {
   background: #00a99d;
 }
 
-/* line 241, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 240, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .offer-list-item--active button {
   background: #00a99d;
   color: #e3e3e3;
   border-color: #00a99d;
 }
 
-/* line 251, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 250, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .features {
   height: 620px;
   width: 100%;
   background: #383838;
 }
 
-/* line 255, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 254, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .features-list {
   display: block;
   flex: 1;
   margin-top: 90px;
 }
 
-/* line 262, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 258, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .features-list-item {
   position: relative;
   margin-bottom: 60px;
   min-height: 75px;
 }
 
-/* line 266, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 262, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .features-list-item__image {
   position: absolute;
   top: 5px;
@@ -326,7 +321,7 @@ button:focus {
   font-size: 40px;
 }
 
-/* line 273, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 269, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .features-list-item__content {
   position: absolute;
   top: 0;
@@ -334,7 +329,7 @@ button:focus {
   max-width: 270px;
 }
 
-/* line 278, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 274, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .features-list-item__content h4 {
   font-size: 14px;
   color: #e4e4e4;
@@ -343,38 +338,40 @@ button:focus {
   margin-bottom: 20px;
 }
 
-/* line 285, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 281, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .features-list-item__content p {
   color: #7a7a7a;
   font-size: 14px;
 }
 
-/* line 290, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 286, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .features-list-item:last-child {
   margin-bottom: 0;
 }
 
-/* line 295, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 291, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .features__image {
   position: absolute;
   right: 0;
   bottom: 0;
+  display: flex;
 }
 
-/* line 302, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 299, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .more-features {
   width: 100%;
   padding: 80px 0 40px;
 }
 
-/* line 306, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 303, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .more-features-item {
   width: 33%;
   position: relative;
   margin-bottom: 60px;
+  cursor: context-menu;
 }
 
-/* line 310, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 308, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .more-features-item-image {
   position: absolute;
   top: 0;
@@ -382,15 +379,17 @@ button:focus {
   width: 40px;
   height: 70px;
   background: #00a99d;
+  transition: 0.3s color;
   border-radius: 4px 4px 0 0;
   clip-path: polygon(0% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
 
-/* line 319, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 318, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .more-features-item-image__cover {
   width: 40px;
   height: 50px;
   background: #383838;
+  transition: 0.3s color;
   border-radius: 4px 4px 0 0;
   clip-path: polygon(0% 0%, 100% 0, 100% 72%, 50% 100%, 0 72%);
   display: flex;
@@ -400,12 +399,12 @@ button:focus {
   color: #e4e4e4;
 }
 
-/* line 332, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 332, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .more-features-item-content {
   margin-left: 60px;
 }
 
-/* line 334, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 334, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .more-features-item-content h4 {
   font-size: 14px;
   font-family: Raleway-ExtraBold;
@@ -414,50 +413,49 @@ button:focus {
   text-transform: uppercase;
 }
 
-/* line 341, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 341, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .more-features-item-content span {
   font-size: 12px;
   color: #aaa;
 }
 
-/* line 345, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 345, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .more-features-item-content p {
   color: #7a7a7a;
   font-size: 14px;
   margin-top: 17px;
 }
 
-/* line 352, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.more-features-item--active .more-features-item-image {
+/* line 352, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.more-features-item:hover .more-features-item-image, .more-features-item--active .more-features-item-image {
   background: #383838;
 }
 
-/* line 354, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
-.more-features-item--active .more-features-item-image__cover {
+/* line 354, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.more-features-item:hover .more-features-item-image__cover, .more-features-item--active .more-features-item-image__cover {
   background: #00a99d;
 }
 
-/* line 362, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 362, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .skills {
   width: 100%;
   padding-bottom: 70px;
   background: #383838;
 }
 
-/* line 366, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 366, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .skills-list {
   width: 100%;
-  margin-top: 50px;
 }
 
-/* line 369, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 368, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .skills-list-item {
   width: 14.5%;
   margin-right: auto;
   text-align: center;
 }
 
-/* line 373, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 372, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .skills-list-item__circle {
   width: 120px;
   height: 120px;
@@ -473,35 +471,585 @@ button:focus {
   align-items: center;
 }
 
-/* line 386, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 385, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .skills-list-item__circle span {
   font-size: 30px;
 }
 
-/* line 390, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 389, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .skills-list-item h4 {
   margin-top: 20px;
   font-size: 14px;
   color: #8a8a8a;
 }
 
-/* line 395, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 394, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .skills-list-item:last-child {
   margin-right: 0;
 }
 
-/* line 402, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 401, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .work {
-  padding: 75px 0;
+  width: 100%;
+  padding: 75px 0 105px;
 }
 
-/* line 406, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 404, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 3px;
+  box-sizing: border-box;
+}
+
+/* line 410, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item {
+  width: 16.66%;
+  padding: 1px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 1360px) {
+  /* line 410, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+  .work-list-item {
+    width: 25%;
+  }
+}
+
+/* line 420, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item:hover .work-list-item-wraper__overlay {
+  opacity: 1;
+}
+
+/* line 424, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item:hover .work-list-item-wraper img {
+  transform: scale(1.1);
+}
+
+/* line 429, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item-wraper {
+  height: 13vw;
+  border-radius: 4px;
+  background: grey;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* line 436, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item-wraper img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  z-index: 1;
+  transition: 0.5s all;
+}
+
+/* line 447, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item-wraper__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  border-radius: 4px;
+  background: rgba(28, 163, 153, 0.8);
+  z-index: 9;
+  transition: 0.3s all;
+}
+
+/* line 459, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item-wraper__content {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 467, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item-wraper-socials {
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+/* line 470, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item-wraper-socials__icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background: #e4e4e4;
+  font-size: 16px;
+  color: #00a99d;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s color;
+}
+
+/* line 483, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item-wraper-socials__icon div {
+  transform: rotate(-45deg);
+}
+
+/* line 486, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item-wraper-socials__icon:hover {
+  background: #383838;
+  color: #e4e4e4;
+  z-index: 99;
+}
+
+/* line 493, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item-wraper h3 {
+  margin-bottom: 10px;
+  text-transform: none;
+  color: #e4e4e4;
+}
+
+/* line 498, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item-wraper p {
+  margin-bottom: 20px;
+  color: #e4e4e4;
+}
+
+/* line 502, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item-wraper__rate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  color: #e4e4e4;
+}
+
+/* line 508, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work-list-item-wraper__rate span {
+  margin-left: 5px;
+}
+
+/* line 515, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.work__button {
+  width: 100%;
+  padding: 15px 0;
+  background: #00a99d;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: Raleway-ExtraBold;
+  border-radius: 3px;
+  margin-top: 50px;
+  border: none;
+  color: #e4e4e4;
+  cursor: pointer;
+}
+
+/* line 530, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.fact {
+  width: 100%;
+  background: #383838;
+  padding-bottom: 90px;
+}
+
+/* line 534, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.fact-list {
+  margin: -13px -15px 0;
+}
+
+/* line 536, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.fact-list-item {
+  width: 25%;
+  min-height: 130px;
+  padding: 0 15px;
+  cursor: context-menu;
+  text-align: center;
+}
+
+/* line 544, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.fact-list-item--active h1::before, .fact-list-item--active h1::after, .fact-list-item:hover h1::before, .fact-list-item:hover h1::after {
+  background: #00a99d;
+}
+
+/* line 549, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.fact-list-item h1 {
+  font-size: 80px;
+  color: #e4e4e4;
+  font-family: Raleway-Medium;
+  font-style: italic;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 558, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.fact-list-item h1::before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  transform: rotate(45deg);
+  border-radius: 2px;
+  background: #484848;
+  margin-right: 20px;
+  transition: 0.3s color;
+}
+
+/* line 569, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.fact-list-item h1::after {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  transform: rotate(45deg);
+  border-radius: 2px;
+  background: #484848;
+  margin-left: 20px;
+  transition: 0.3s color;
+}
+
+/* line 581, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.fact-list-item__icon {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #00a99d;
+}
+
+/* line 587, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.fact-list-item__icon::before {
+  content: "";
+  display: inline-block;
+  flex: 1;
+  height: 1px;
+  background: #484848;
+  margin-right: 10px;
+}
+
+/* line 596, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.fact-list-item__icon::after {
+  content: "";
+  display: inline-block;
+  flex: 1;
+  height: 1px;
+  background: #484848;
+  margin-left: 10px;
+}
+
+/* line 606, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.fact-list-item h3 {
+  margin-top: 15px;
+  color: #606060;
+  font-size: 14px;
+}
+
+/* line 615, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.sactisfie {
+  height: 80px;
+  width: 100%;
+  background: #00a99d;
+}
+
+/* line 619, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.sactisfie h3 {
+  position: absolute;
+  font-size: 16px;
+  color: #e4e4e4;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 626, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.sactisfie__button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 631, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.sactisfie__button button {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #606060;
+  font-family: Raleway-ExtraBold;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  background: #e4e4e4;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* line 646, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members {
+  width: 100%;
+  padding: 75px 0 105px;
+}
+
+/* line 649, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list {
+  margin: 0 -15px;
+}
+
+/* line 651, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item {
+  width: 25%;
+  min-height: 100px;
+  padding: 15px;
+}
+
+/* line 656, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item__wraper {
+  height: 100%;
+}
+
+/* line 660, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-image {
+  position: relative;
+  width: 100%;
+  height: 270px;
+  background: #8a8a8a;
+  border-radius: 4px 4px 0 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* line 668, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 4px 4px 0 0;
+  z-index: 1;
+  transition: 0.5s all;
+}
+
+/* line 678, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-image__overlay {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 4px 4px 0 0;
+  background: rgba(28, 163, 153, 0.8);
+  opacity: 0;
+  transition: 0.3s all;
+}
+
+/* line 690, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-image-socials {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+/* line 696, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-image-socials__icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background: #e4e4e4;
+  font-size: 16px;
+  color: #00a99d;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s color;
+}
+
+/* line 709, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-image-socials__icon div {
+  transform: rotate(-45deg);
+}
+
+/* line 712, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-image-socials__icon:hover {
+  background: #383838;
+  color: #e4e4e4;
+  z-index: 99;
+}
+
+/* line 720, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-detail {
+  min-height: 140px;
+  border: 1px solid #dedede;
+  border-width: 0 1px 1px 1px;
+  border-radius: 0 0 4px 4px;
+  text-align: center;
+}
+
+/* line 726, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-detail__name {
+  position: relative;
+}
+
+/* line 728, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-detail__name h4 {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  color: #e4e4e4;
+  padding: 12px 15px;
+  background: #00a99d;
+  border-radius: 4px;
+  transition: 0.3s color;
+}
+
+/* line 742, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-detail__job {
+  padding: 35px 0 15px;
+  font-size: 12px;
+  color: #606060;
+  border-bottom: 1px solid #ebebeb;
+  display: inline-block;
+}
+
+/* line 749, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-detail__contact {
+  margin-top: 15px;
+  color: #aaa;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: baseline;
+}
+
+/* line 756, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-detail__contact div {
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+/* line 760, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item-detail__contact span {
+  font-size: 12px;
+}
+
+/* line 766, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item:hover .members-list-item-image__overlay {
+  opacity: 1;
+}
+
+/* line 770, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item:hover .members-list-item-detail__contact--email span {
+  color: #00a99d;
+}
+
+/* line 775, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item:hover .members-list-item-detail__name h4 {
+  background: #383838;
+}
+
+/* line 780, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.members-list-item:hover .members-list-item-image img {
+  transform: scale(1.1);
+}
+
+/* line 789, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.quote {
+  background: #00a99d;
+  padding: 0 0 50px;
+}
+
+/* line 793, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.quote__content {
+  font-size: 20px;
+  color: #e4e4e4;
+  text-align: center;
+}
+
+/* line 798, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.quote__author {
+  text-align: center;
+  padding: 12px 15px;
+  background: #e4e4e4;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  font-size: 13px;
+  color: #00a99d;
+  font-family: Raleway-ExtraBold;
+  text-transform: uppercase;
+}
+
+/* line 809, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.quote__author span {
+  font-size: 12px;
+  color: #aaa;
+  font-family: Raleway-Medium;
+  text-transform: none;
+}
+
+/* line 816, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.quote-arrow {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 821, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.quote-arrow__icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background: #383838;
+  color: #e4e4e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2px;
+}
+
+/* line 831, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.quote-arrow__icon--active {
+  background: #e4e4e4;
+  color: #00a99d;
+}
+
+/* line 839, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.footer {
+  height: 100px;
+  background: #333;
+  text-align: center;
+}
+
+/* line 843, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
+.footer p {
+  padding-top: 55px;
+  font-size: 14px;
+  font-family: Raleway-ExtraBold;
+  color: #e4e4e4;
+}
+
+/* line 851, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .section-icon {
   width: 100%;
   position: relative;
 }
 
-/* line 409, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 854, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .section-icon-wraper {
   position: absolute;
   width: 38px;
@@ -518,40 +1066,41 @@ button:focus {
   align-items: center;
 }
 
-/* line 423, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 868, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .section-icon-wraper div {
   transform: rotate(-45deg);
 }
 
-/* line 428, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 873, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .section-icon--dark-bg .section-icon-wraper {
   background: #383838;
 }
 
-/* line 434, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 879, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .title {
   flex: 1;
   text-align: center;
+  margin-bottom: 50px;
 }
 
-/* line 437, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 883, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .title-text {
   display: flex;
   text-align: center;
   position: relative;
 }
 
-/* line 441, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 887, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .title-text__blue {
   color: #00a99d;
 }
 
-/* line 444, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 890, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .title-text__white {
   color: #e4e4e4;
 }
 
-/* line 447, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 893, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .title-text h3 {
   text-transform: uppercase;
   font-size: 26px;
@@ -561,7 +1110,7 @@ button:focus {
   text-align: center;
 }
 
-/* line 454, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 900, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .title-text h3::before {
   content: "";
   display: inline-block;
@@ -571,7 +1120,7 @@ button:focus {
   background: url(../img/ic_arrow_left.png);
 }
 
-/* line 462, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 908, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .title-text h3::after {
   content: "";
   display: inline-block;
@@ -581,7 +1130,7 @@ button:focus {
   background: url(../img/ic_arrow_right.png);
 }
 
-/* line 471, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 917, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .title-text::before {
   content: "";
   display: inline-block;
@@ -594,7 +1143,7 @@ button:focus {
   margin-right: 10px;
 }
 
-/* line 482, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 928, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .title-text::after {
   content: "";
   display: inline-block;
@@ -607,25 +1156,25 @@ button:focus {
   margin-left: 10px;
 }
 
-/* line 494, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 940, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .title p {
   font-size: 16px;
   color: #8a8a8a;
   margin-top: 12px;
 }
 
-/* line 501, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 947, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .title--no-line .title-text::before, .title--no-line .title-text::after {
   display: none;
 }
 
-/* line 504, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 950, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .title--no-line .title-text h3 {
   margin-top: 70px;
   flex: 1;
 }
 
-/* line 512, D:/Work/VietIS/HTML/html-startup/Startup/scss/style.scss */
+/* line 958, D:/PROJECT/HTML/html-startup/Startup/scss/style.scss */
 .test {
   border: 1px dashed red;
 }
